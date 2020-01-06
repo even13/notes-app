@@ -5,5 +5,5 @@ var assert = {
     } else {
       console.log("Nothing wrong here")
     }
-  };
+  }
 };
