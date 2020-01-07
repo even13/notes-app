@@ -3,11 +3,11 @@
     this.text = 'My favorite language is Javascript'
   }
 
-  Note.prototype.addText = function(input){
+  Note.prototype.addText = function(input) {
     this.text = input
   }
 
-  Note.prototype.read = function(){
+  Note.prototype.read = function() {
     return this.text;
   }
 
