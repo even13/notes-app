@@ -1,6 +1,7 @@
 (function(exports) {
   function List() {
     this.notes = [];
+    this.id = 0;
   }
 
   List.prototype.store = function(note) {
@@ -9,7 +10,9 @@
 
   List.prototype.create = function(input) {
     note = new Note(input);
-    this.notes.push(note);
+    note.id = this.id;
+    this.id ++;
+    this.store(note);
     console.log(note);
   }
 
