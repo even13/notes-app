@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "http-server": "node node_modules/http-server/bin/http-server"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,6 @@
   "homepage": "https://github.com/even13/notes-app#readme",
   "dependencies": {},
   "devDependencies": {
-    "http-server": "^0.12.0"
+    "http-server": "^0.12.1"
   }
 }
