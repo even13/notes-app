@@ -1,4 +1,4 @@
-var note = new Note();
+var note = new Note('My favorite language is Javascript');
 
 function testNoteTextContent() {
   assert.isTrue(note.text === 'My favorite language is Javascript');

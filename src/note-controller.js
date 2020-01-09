@@ -1,14 +1,11 @@
 (function(exports) {
-  function NoteController(notelist) {
-    this.notelistview = new ListViewer(notelist.create("Favourite drink: seltzer"));
-  };
+  function NoteController(list = new List) {
+      this.list = list;
+    }
 
-  NoteController.prototype.getHTML = function() {
-    var htmlstring = this.notelistview.content();
-    var app = document.getElementById("app");
-    app.innerHTML = htmlstring ;
-    console.log(app);
-  }
-
-  exports.NoteController = NoteController;
+    NoteController.prototype.getHTML= function() {
+      let viewer = new ListViewer(this.list);
+      document.getElementById("app").innerHTML = viewer.content();
+    }
+   exports.NoteController = NoteController;
 })(this);

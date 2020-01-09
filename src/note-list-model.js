@@ -8,8 +8,7 @@
   }
 
   List.prototype.create = function(input) {
-    note = new Note();
-    note.text = input;
+    note = new Note(input);
     this.notes.push(note);
     console.log(note);
   }

@@ -1,6 +1,6 @@
 (function(exports) {
-  function Note() {
-    this.text = 'My favorite language is Javascript'
+  function Note(text) {
+    this.text = text
   }
 
   Note.prototype.addText = function(input) {
