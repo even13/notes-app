@@ -20,7 +20,9 @@
     "url": "https://github.com/even13/notes-app/issues"
   },
   "homepage": "https://github.com/even13/notes-app#readme",
-  "dependencies": {},
+  "dependencies": {
+    "minimist": "^1.2.5"
+  },
   "devDependencies": {
     "http-server": "^0.12.1"
   }
