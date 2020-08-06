@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/even13/notes-app#readme",
   "dependencies": {
-    "ecstatic": "^4.1.2",
+    "ecstatic": "^4.1.4",
     "minimist": "^1.2.5"
   },
   "devDependencies": {
