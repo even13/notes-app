@@ -22,7 +22,7 @@
   "homepage": "https://github.com/even13/notes-app#readme",
   "dependencies": {
     "ecstatic": "^4.1.4",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   },
   "devDependencies": {
     "http-server": "^0.12.1"
